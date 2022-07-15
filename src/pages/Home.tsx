@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../Components/MovieCard";
+import "./MoviesGrid.css";
 
 const moviesUrl = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -21,6 +22,10 @@ export type TData = {
   title: string;
   vote_average: number;
   vote_count: number;
+  tagline: string;
+  budget: number;
+  revenue: number;
+  runtime: string;
 };
 
 const Home = () => {
