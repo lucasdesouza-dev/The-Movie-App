@@ -24,7 +24,7 @@ const Search = () => {
   };
 
   useEffect(() => {
-    const searchWithQueryURL = `https://${searchURL}?api_key=${apiKey}&query=${query}`;
+    const searchWithQueryURL = `//${searchURL}?api_key=${apiKey}&query=${query}`;
     getSearchMovies(searchWithQueryURL);
   }, [query]);
   return (
