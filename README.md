@@ -16,7 +16,7 @@ Criado com React e TypeScipt e iniciado com VITE
 
 ## Referências e Inspirações:
 
-[How usando VITE para iniciar projeto](https://vitejs.dev)
+[Usando VITE para iniciar projeto](https://vitejs.dev)
 
 [TypeScript -React](https://www.typescriptlang.org/docs/handbook/react.html)
 
@@ -24,9 +24,10 @@ Criado com React e TypeScipt e iniciado com VITE
 
 [YouTube - Deploy Vite](https://www.youtube.com/watch?v=yo2bMGnIKE8&list=PLhjxdOe5elEiywuC5kuAvJ8oCHuMTCI45)
 
+[replaces every http requests with https in public html](https://stackoverflow.com/questions/64014802/javascript-fetch-automatically-changes-http-with-https)
+
 ## To Do:
 
-- Concertar deploy vercel, pesquisa com http , possivelmente pelo navigate do react-dom
 <!-- ## Available Scripts
 
 In the project directory, you can run:
