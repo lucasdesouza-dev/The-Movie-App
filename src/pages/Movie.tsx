@@ -34,7 +34,7 @@ const Movie = () => {
   };
 
   useEffect(() => {
-    const movieUrl = `https://${moviesUrl}${id}?api_key=${apiKey}`;
+    const movieUrl = `${moviesUrl}${id}?api_key=${apiKey}`;
     getMovie(movieUrl);
   }, []);
   return (
