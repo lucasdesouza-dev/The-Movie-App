@@ -1,18 +1,18 @@
 # Movies Lib
 
 Um Spa(Single Page Application) que implementa uma pagina Web com
-lista de filmes.
+lista de filmes com pesquisa.
 
 Criado com React e TypeScipt e iniciado com VITE
 
-[Home Page](https://the-movie-app-ten.vercel.app)
+[Home Page](https://the-movie-app-five.vercel.app)
 
 ## Tecnologias
 
-- Vite
-- React.js
-- TypeScript
-- CSS
+[<img alt="create-react-app" width="26px" src="https://vitejs.dev/logo-with-shadow.png" />](https://vitejs.dev)
+[<img alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />](https://pt-br.reactjs.org)
+[<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />](https://www.typescriptlang.org/docs/handbook/react.html)
+[<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](https://www.w3schools.com/css/)
 
 ## Referências e Inspirações:
 
