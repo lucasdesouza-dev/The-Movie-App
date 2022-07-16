@@ -17,10 +17,10 @@ const Search = () => {
   const query = searchParams.get("q");
 
   const getSearchMovies = async (url: string) => {
-    const res = await fetch(url);
-    const data = await res.json();
-
-    setMovies(data.results);
+    const data = await fetch(url)
+      .then((res) => res.json())
+      .then((res) => setMovies(res.results))
+      .catch((e) => console.error(e));
   };
 
   useEffect(() => {

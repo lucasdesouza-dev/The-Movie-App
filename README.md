@@ -7,8 +7,6 @@ Criado com React e TypeScipt e iniciado com VITE
 
 [Home Page](https://the-movie-app-ten.vercel.app)
 
-
-
 ## Tecnologias
 
 - Vite
@@ -26,7 +24,9 @@ Criado com React e TypeScipt e iniciado com VITE
 
 [YouTube - Deploy Vite](https://www.youtube.com/watch?v=yo2bMGnIKE8&list=PLhjxdOe5elEiywuC5kuAvJ8oCHuMTCI45)
 
+## To Do:
 
+- Concertar deploy vercel, pesquisa com http , possivelmente pelo navigate do react-dom
 <!-- ## Available Scripts
 
 In the project directory, you can run:
@@ -65,4 +65,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
- -->
+-->
