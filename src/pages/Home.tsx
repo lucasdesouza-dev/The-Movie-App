@@ -39,7 +39,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    const topRateUrl = `${moviesUrl}top_rated?api_key=${apiKey}`;
+    const topRateUrl = `https://${moviesUrl}top_rated?api_key=${apiKey}`;
     getTopRateMovies(topRateUrl);
   }, []);
 
