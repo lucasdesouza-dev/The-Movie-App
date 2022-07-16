@@ -13,7 +13,7 @@ import type { TData } from "./Home";
 const Search = () => {
   const [searchParams] = useSearchParams();
 
-  const [movies, setMovies] = useState<TData[]>([]);
+  const [movies, setMovies] = useState<TData[] | null>(null);
   const query = searchParams.get("q");
 
   const getSearchMovies = async (url: string) => {
@@ -24,7 +24,7 @@ const Search = () => {
   };
 
   useEffect(() => {
-    const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`;
+    const searchWithQueryURL = `https://${searchURL}?api_key=${apiKey}&query=${query}`;
     getSearchMovies(searchWithQueryURL);
   }, [query]);
   return (
@@ -33,7 +33,7 @@ const Search = () => {
         Resultados para: <span className="query-text">{query}</span>
       </h2>
       <div className="movies-container">
-        {movies.length === 0 && <p>Carregando</p>}
+        {movies?.length === 0 && <p>Carregando</p>}
         {movies != null &&
           movies.map((movie) => (
             <MovieCard key={movie.id} movie={movie} showLink={true} />

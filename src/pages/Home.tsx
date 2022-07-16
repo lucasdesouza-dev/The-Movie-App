@@ -29,17 +29,17 @@ export type TData = {
 };
 
 const Home = () => {
-  const [topMovies, setTopMovies] = useState<TData[]>([]);
+  const [topMovies, setTopMovies] = useState<TData[] | null>(null);
 
   const getTopRateMovies = async (url: string) => {
-    const res = await fetch(url);
-    const data = await res.json();
-
-    setTopMovies(data.results);
+    const data = await fetch(url)
+      .then((res) => res.json())
+      .then((res) => setTopMovies(res.results))
+      .catch((e) => console.error(e));
   };
 
   useEffect(() => {
-    const topRateUrl = `${moviesUrl}top_rated?${apiKey}`;
+    const topRateUrl = `https://${moviesUrl}top_rated?api_key=${apiKey}`;
     getTopRateMovies(topRateUrl);
   }, []);
 
@@ -47,7 +47,7 @@ const Home = () => {
     <div className="container">
       <h2 className="title">Melhores Filmes:</h2>
       <div className="movies-container">
-        {topMovies.length === 0 && <p>Carregando</p>}
+        {topMovies?.length === 0 && <p>Carregando</p>}
         {topMovies != null &&
           topMovies.map((movie) => (
             <MovieCard key={movie.id} movie={movie} showLink={true} />
