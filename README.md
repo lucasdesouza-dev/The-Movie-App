@@ -5,14 +5,9 @@ lista de filmes.
 
 Criado com React e TypeScipt e iniciado com VITE
 
-[Home Page](https://lucashenriquesouza.github.io/The-Movie-App/)
+[Home Page](https://the-movie-app-ten.vercel.app)
 
-## Característica:
 
-### Designer
-
-- Baseado no design da calculadora da APPLE.
-- com todas as funcionalidades de uma calculadora simples .
 
 ## Tecnologias
 
@@ -29,11 +24,8 @@ Criado com React e TypeScipt e iniciado com VITE
 
 [CSS ](https://www.w3schools.com/cssref/default.asp)
 
-[YouTube - Tutorial ](https://www.youtube.com/watch?v=T7Cxu10Kln4&t=1592s)
-
 [YouTube - Deploy Vite](https://www.youtube.com/watch?v=yo2bMGnIKE8&list=PLhjxdOe5elEiywuC5kuAvJ8oCHuMTCI45)
 
-[Design Calculadora Apple](https://support.apple.com/pt-br/guide/iphone/iph1ac0b5cc/ios#:~:text=No%20app%20Calculadora%20%2C%20você%20pode,Peça%20à%20Siri%20no%20iPhone.)
 
 <!-- ## Available Scripts
 
