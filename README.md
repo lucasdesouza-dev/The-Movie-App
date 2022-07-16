@@ -5,7 +5,7 @@ lista de filmes.
 
 Criado com React e TypeScipt e iniciado com VITE
 
-[Home Page]([https://lucashenriquesouza.github.io/The-Movie-App/](https://the-movie-app-ten.vercel.app))
+[Home Page](https://the-movie-app-ten.vercel.app)
 
 
 
